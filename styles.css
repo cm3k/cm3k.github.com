@@ -14,11 +14,73 @@ h2 {
 }
 .footer {
     position: fixed;
+    float: bottom;
     left: 0;
     bottom: 0;
     width: 100%;
     text-align: center;
+    border: #000000;
+    border-style: solid;
 }
 .cm3kfont {
     font-family: "Cascadia Mono";
+}
+
+.footer_button {
+    color: #222;
+    text-decoration: none;
+    border:2px solid #eee;
+    font-family: 'IBM Plex Sans',sans-serif;
+    -moz-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.5s ease;
+    display: inline-block;
+    text-align: center;
+    padding: 0.8rem 1.8rem;
+    margin: 0.5rem;
+}
+
+.left_footer_buttons
+{
+    float:left;
+    float: bottom;
+}
+
+.right_footer_buttons {
+    float: right;
+}
+
+.footer_button.circle{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    line-height: 1;
+    box-sizing: border-box;
+    padding: 1.3em 0;
+}
+
+.footer_button.circle.youtube{
+    background: url(assets/YouTube_Logo.webp) no-repeat;
+    background-size: 4.75rem;
+    background-color: red;
+}
+
+.footer_button.circle.github{
+    background: url(assets/GitHub_Logo.webp) no-repeat;
+    background-size: 5rem;
+}
+
+.footer_button.circle.discord{
+    background: url(assets/Discord_Logo.webp) no-repeat;
+    background-size: 4.75rem;
+}
+
+.footer_button.circle.twitter{
+    background: url(assets/Twitter_Logo.webp) no-repeat;
+    background-size: 5rem;
+}
+
+.footer_button.circle:hover{
+    transform: rotate(360deg);
 }

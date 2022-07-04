@@ -1,0 +1,10 @@
+{
+  "homepage": "https://www.cm3k.xyz/projects/BigLAN/about.html",
+  "1.12.2": {
+    "v1.0.0": "The first version!", 
+  },
+  "promos": {
+    "1.12.2-latest": "v1.0.0",
+    "1.12.2-recommended": "v1.0.0",
+  }
+}
